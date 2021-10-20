@@ -10,28 +10,44 @@
 
 	<!--STYLES-->
 	<style type="text/css">
+		* {
+			-ms-text-size-adujust: 100%;
+		}
+
+		html,
 		body {
-			margin: 0;
+			margin: 0 auto !important;
+			padding: 0 !important;
+			height: 100% !important;
+			width: 100% !important;
 			background-color: #cccccc;
 		}
+
 
 		table {
 			border-spacing: 0;
 			border-collapse: collapse;
+			mso-table-lspace: 0pt !important;
+			mso-table-rspace: 0pt !important;
+			background-color: #ffff;
 		}
 
 		td {
 			padding: 0;
+			mso-table-lspace: 0pt !important;
+			mso-table-rspace: 0pt !important;
+			background-color: #ffff;
 		}
 
 		img {
 			border: 0;
+			-ms-interpolation-mode: bicubic;
 		}
 
 		.wrapper {
 			width: 100%;
 			table-layout: fixed;
-			background-color: #cccc;
+			background-color: #ccc;
 			padding-bottom: 60px;
 		}
 
@@ -52,24 +68,38 @@
 			font-size: 12px;
 			padding: 6px;
 		}
+
+		a {
+			text-decoration: none;
+		}
+
+		@media screen and (max-devixe-width: 640px),
+		screen and (max-width: 600px) {
+			.contact {
+				font-size: 2vw !important;
+				line-height: 3vw !important;
+			}
+		}
 	</style>
 </head>
 
-<body>
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly;">
 	<center class="wrapper">
 
-		<table class="main" width="100%">
+		<table role="presentation" class="main" width="100%" border="0" cellpadding="0" cellspacing="0"
+			bgcolor="#F2F2F2">
 
 			<!-- TOP LOGO SECTION -->
 			<tr>
 				<td>
-					<table width="100%">
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<tr>
 							<td width="310" style="padding: 5px 0px 10px 10px;">
-								<a href="#"><img src="img/royal-caribbean-logo-no-border.png" alt="logo"
-										width="180"></a>
+								<a href="#"><img
+										src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/9d514612bc6b080c651cd8e72feb93f7e9dee5f05ad69cc1a5ce75abaf17819d.png"
+										alt="logo" width="180"></a>
 							</td>
-							<td width="270" style="text-align: right; padding: 5px 10px 10px 5px;">
+							<td class="contact" width="270" style="text-align: right; padding: 5px 10px 10px 5px;">
 								<a href="tel:+18772024342" style="color:#5e5e5e; text-decoration: none; "
 									target="_blank">Call
 									us at <span style="color: #0073bb;">1 (877) 202-4342</span> or
@@ -83,18 +113,20 @@
 
 			<!-- HERO IMAGE -->
 			<tr>
-				<td><a href="#"><img src="img/rcl-hero-image.jpg" alt="" width="600" style="max-width: 100%;"></a></td>
+				<td><a href="#"><img
+							src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/6d22c99c0c5a72b3cef2c0906e5dbc7693fdc65eb4c2ae595ee4805acef05264.jpg"
+							alt="" width="600" style="max-width: 100%;"></a></td>
 			</tr>
 
 			<!-- MAIN BODY TEXT -->
 
 			<tr>
 				<td>
-					<table width="100%">
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<tr>
 							<td style="padding: 15px 15px 5px 15px;">
 								<p>Dear Guest,</p>
-								<p style="line-height: 23px; padding: 5px 0 0">As part of the guidance received from
+								<p style="line-height: 23px; padding: 5px 0 0;">As part of the guidance received from
 									the CDC, we’ve implemented new boarding and arrival protocols. As a result, we’ll
 									need some extra time for check-in. We’ll now depart from <strong>Orlando (Port
 										Canaveral), Florida at 5:00 PM, instead of 4:30 PM</strong>. Separately, to
@@ -110,16 +142,29 @@
 									itinerary.</p>
 							</td>
 						</tr>
-
 					</table>
 				</td>
 			</tr>
 
+			<!--[if mso]>
+<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td width="100%">
+<![endif]-->
+			<div style="display:inline-block; width:100%; max-width:600px;">
+			</div>
+			<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
 			<!-- TABLE TITLE -->
 			<tr>
 				<td style="text-align: center;">
-					<table width="100%">
-						<p style="font-size: 18px; font-weight: bold;">Revised Harmony of the Seas November 28th, 2021
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+						<br>
+						<p style="font-size: 18px; font-weight: bold;">*Revised Harmony of the Seas November 28th, 2021
 							Itinerary</p>
 					</table>
 				</td>
@@ -127,7 +172,8 @@
 			<!-- ITINERARY TABLE -->
 			<tr>
 				<td style="text-align: center; padding: 15px;">
-					<table width="100%" class="itinerary_table">
+					<table class="itinerary_table" width="100%" border="0" cellpadding="0" cellspacing="0"
+						bgcolor="#F2F2F2">
 						<thead style="background-color:#041556; color: #ffff;">
 							<tr>
 								<th scope="col">Day</th>
@@ -136,7 +182,7 @@
 								<th scope="col">Depart</th>
 							</tr>
 						</thead>
-						<tbody>
+						<tbody style="text-align: center;"">
 							<tr>
 								<td>Sun</td>
 								<td>Orlando (Port Canaveral), Florida</td>
@@ -196,58 +242,129 @@
 
 			<!-- INTRO TO PORTS OF CALL -->
 			<tr>
-				<td style="padding: 15px; text-align: center; font-size: 18px; font-weight: bold;">
-					<table width="100%">
-						<p>Whether you’re looking for thrills or simply want to chill, these ports have something for
-							everyone!</p>
-					</table>
+				<td style=" padding: 15px; text-align: center; font-size: 18px; font-weight: bold;">
+							<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+								<p>Whether you’re looking for thrills or simply want to chill, these ports have
+									something for
+									everyone!</p>
+							</table>
 				</td>
 			</tr>
 			<!-- PORTS OF CALL -->
 
 			<tr>
 				<td style="padding-top: 15px;">
-					<table width="100%">
-						<a href="https://www.royalcaribbean.com/cococay-cruises"><img src="img/cococay.jpg" alt=""></a>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+						<a href="https://www.royalcaribbean.com/cococay-cruises"><img
+								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/60341f125a44bebf77823af80ba61fe9cf657ec0930fce044a45d3ec197904ee.jpg"
+								alt=""></a>
 					</table>
 				</td>
 			</tr>
 			<tr>
 				<td style="padding-top: 8px;">
-					<table width="100%">
-						<a href="https://www.royalcaribbean.com/bahamas-cruises"><img src="img/nassau-bahamas.jpg" alt=""></a>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+						<a href="https://www.royalcaribbean.com/bahamas-cruises"><img
+								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/0b6201b908b4c75819c841ab88e064ae59d422ca1118def3c318edc78d5c489c.jpg"
+								alt=""></a>
 					</table>
 				</td>
 			</tr>
 			<tr>
 				<td style="padding-top: 8px;">
-					<table width="100%">
-						<a href="https://www.royalcaribbean.com/mexico-cruises"><img src="img/costa-maya-mexico.jpg" alt=""></a>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+						<a href="https://www.royalcaribbean.com/mexico-cruises"><img
+								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/d2584a7f9d20cb9d55829afad587f06d6a7bdfd1a3f21fa242d429265fc0f83d.jpg"
+								alt=""></a>
 					</table>
 				</td>
 			</tr>
 			<tr>
 				<td style="padding-top: 8px;">
-					<table width="100%">
-						<a href="https://www.royalcaribbean.com/cozumel-cancun-cruises"><img src="img/cozumel-mexico.jpg" alt=""></a>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+						<a href="https://www.royalcaribbean.com/cozumel-cancun-cruises"><img
+								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/f207db951371b3cd3e514b31f807e3b75194b6bc4e4c51f24ee1d4141848931f.jpg"
+								alt=""></a>
 					</table>
 				</td>
 			</tr>
 
 
-			<!-- FOOTER SECTION -->
+			<!-- MAIN CONTENT INFO ENDING -->
 
 			<tr>
 				<td>
-					<table width="100%">
-
-
-
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+						<tr>
+							<td style="padding: 15px 15px 5px 15px;">
+								<p style="line-height: 23px; padding: 5px 0 0;">Our Shore Excursions team will
+									automatically reschedule any pre-paid Royal Caribbean International shore excursions
+									impacted by this change. Any pre-paid Royal Caribbean International shore excursions
+									booked for Labadee and Falmouth will automatically be refunded to your original form
+									of payment. In the next few days, your updated tour information will be e-mailed to
+									you.</p>
+							</td>
+						</tr>
 					</table>
 				</td>
 			</tr>
 
+			<tr>
+				<td>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td style="padding: 10px 15px 0px 15px; background-color: #EAF3FE;">
+								<p style="line-height: 23px; padding: 5px 0 0; text-align: center; font-size: 18px;">In the meantime, feel free to browse all
+									the exciting shore excursion options for your sailing in the <a href="#" style="color: #0073bb;">Cruise Planner.</a></p>
+							</td>
+						</tr>
+						<tr>
+							<td style="padding: 10px 0 15px 0; background-color: #EAF3FE;">
+								<a href="https://www.royalcaribbean.com/cozumel-cancun-cruises"><img
+									src="img/shore-excursion.jpg"
+									alt=""></a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+						<tr>
+							<td style="padding: 15px 15px 0 15px;">
+								<p style="line-height: 23px;">Thanks for your understanding. We can’t wait to welcome you onboard Harmony of the Seas!</p>
+							</td>
+						</tr>
+						<!--Signature Section should be implemented OUTSIDE of the template code Just added this for Visual Example-->
+						<tr>
+							<td style="padding: 0 15px 0 15px;">
+								<p style="line-height: 23px;">Sincerely,
+									<br>
+									Aurora Yera-Rodriguez
+									<br>
+									AVP | Guest Experience
+									<br>
+									Royal Caribbbean International
+								</p>
+								<br>
+							</td>
+						</tr>
+					</table>
+					<a href="#"><img src="img/footer-bar.jpg" alt=""></a>
+				</td>
+			</tr>
 		</table>
+
+		<!-- Footer Section -->
+		<tr>
+			<td>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
+					<p>Testing</p>
+				</table>
+			</td>
+		</tr>
 	</center>
 
 </body>
