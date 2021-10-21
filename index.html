@@ -29,14 +29,12 @@
 			border-collapse: collapse;
 			mso-table-lspace: 0pt !important;
 			mso-table-rspace: 0pt !important;
-			background-color: #ffff;
 		}
 
 		td {
 			padding: 0;
 			mso-table-lspace: 0pt !important;
 			mso-table-rspace: 0pt !important;
-			background-color: #ffff;
 		}
 
 		img {
@@ -47,7 +45,7 @@
 		.wrapper {
 			width: 100%;
 			table-layout: fixed;
-			background-color: #ccc;
+			background-color: #eeee;
 			padding-bottom: 60px;
 		}
 
@@ -57,7 +55,7 @@
 			width: 100%;
 			max-width: 600px;
 			border-spacing: 0;
-			font-size: 14px;
+			font-size: 16px;
 			font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 			color: #4a4a4a;
 		}
@@ -66,17 +64,21 @@
 		th {
 			border: 1px solid #041556;
 			font-size: 12px;
-			padding: 6px;
+			padding: 4px;
 		}
 
 		a {
 			text-decoration: none;
 		}
 
+		.footer p {
+			font-size: 10px;
+		}
+
 		@media screen and (max-devixe-width: 640px),
 		screen and (max-width: 600px) {
 			.contact {
-				font-size: 2vw !important;
+				font-size: 14px !important;
 				line-height: 3vw !important;
 			}
 		}
@@ -89,22 +91,22 @@
 		<table role="presentation" class="main" width="100%" border="0" cellpadding="0" cellspacing="0"
 			bgcolor="#F2F2F2">
 
-			<!-- TOP LOGO SECTION -->
+			<!-- TOP LOGO / CONTACT SECTION -->
 			<tr>
 				<td>
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<tr>
 							<td width="310" style="padding: 5px 0px 10px 10px;">
-								<a href="#"><img
+								<!-- View In browser code example -->
+								<!-- <a href="{% view_in_browser_url %}">View this email online</a> -->
+								<a href="https://www.royalcaribbean.com/"><img
 										src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/9d514612bc6b080c651cd8e72feb93f7e9dee5f05ad69cc1a5ce75abaf17819d.png"
-										alt="logo" width="180"></a>
+										alt="Royal Caribbean logo" width="190"></a>
 							</td>
 							<td class="contact" width="270" style="text-align: right; padding: 5px 10px 10px 5px;">
-								<a href="tel:+18772024342" style="color:#5e5e5e; text-decoration: none; "
-									target="_blank">Call
-									us at <span style="color: #0073bb;">1 (877) 202-4342</span> or
-									<br> Contact your Travel Advisor
-								</a>
+								<a href="tel:18772024342"><img
+										src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/6e785be8a3420aad67ea7dea2630b80c70f1e56eb6756da11cd76363eb4141b0.png"
+										alt="Call us at 1(877)202-4342 or your Travel Advisor" width="190"></a>
 							</td>
 						</tr>
 					</table>
@@ -113,9 +115,9 @@
 
 			<!-- HERO IMAGE -->
 			<tr>
-				<td><a href="#"><img
-							src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/6d22c99c0c5a72b3cef2c0906e5dbc7693fdc65eb4c2ae595ee4805acef05264.jpg"
-							alt="" width="600" style="max-width: 100%;"></a></td>
+				<td><img src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/dde283ca9292f8c692577719c706f9fa654dc836a25c03788347922b19e04872.jpg"
+						alt="Royal Caribbean Important Information about your Cruise. Update from Royal Caribbean on Operations and Sailing from Harmony of the Seas November 2021"
+						width="600" style="max-width: 100%;"></a></td>
 			</tr>
 
 			<!-- MAIN BODY TEXT -->
@@ -124,20 +126,27 @@
 				<td>
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<tr>
-							<td style="padding: 15px 15px 5px 15px;">
-								<p>Dear Guest,</p>
-								<p style="line-height: 23px; padding: 5px 0 0;">As part of the guidance received from
+							<td style="padding: 15px 15px 5px 15px; background-color:#ffff;">
+								<p>Dear
+									<!-- *[This can be dynamic guest name] --> Guest,
+								</p>
+								<p style="line-height: 23px; padding: 5px 0 0;"> As part of the guidance received from
 									the CDC, we’ve implemented new boarding and arrival protocols. As a result, we’ll
 									need some extra time for check-in. We’ll now depart from <strong>Orlando (Port
-										Canaveral), Florida at 5:00 PM, instead of 4:30 PM</strong>. Separately, to
-									maintain your safety and wellbeing, we’ll visit Cozumel, Mexico instead of Labadee
+										Canaveral), Florida at 5:00 PM, instead of 4:30 PM</strong>.</p>
+								<p style="line-height: 23px; padding: 5px 0 0;"> Separately, to
+									maintain your safety and wellbeing, <strong>we’ll visit Cozumel, Mexico instead of
+										Labadee</strong>
 									due to the current political and security situation in Haiti. Regrettably, this
 									impacts our visit to Falmouth, Jamaica because of its distance from Mexico. Instead,
-									we’ll visit Costa Maya, Mexico, and we’ve swapped the order we’ll visit our private
-									destination, Perfect Day at CocoCay and Nassau, Bahamas. We know how much time and
+									<strong>we’ll visit Costa Maya, Mexico</strong>, and we’ve swapped the order
+									<strong>we’ll visit our private
+										destination, Perfect Day at CocoCay and Nassau, Bahamas.</strong>
+								</p>
+								<p style="line-height: 23px; padding: 5px 0 0;"> We know how much time and
 									effort goes into planning your vacation, and we’re sorry for any inconvenience
-									caused
-									by this. We’re excited to take you to new ports and we know you’ll have an excellent
+									caused by this. We’re excited to take you to new ports and we know you’ll have an
+									excellent
 									time! Below, please find our revised Harmony of the Seas November 28th, 2021
 									itinerary.</p>
 							</td>
@@ -159,12 +168,13 @@
 </table>
 <![endif]-->
 
-			<!-- TABLE TITLE -->
+			<!-- ITINERARY TABLE TITLE -->
 			<tr>
 				<td style="text-align: center;">
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<br>
-						<p style="font-size: 18px; font-weight: bold;">*Revised Harmony of the Seas November 28th, 2021
+						<p style="font-size: 24px; font-weight: bold; padding: 0px 15px 0px 15px">*Revised Harmony of
+							the Seas November 28th, 2021
 							Itinerary</p>
 					</table>
 				</td>
@@ -192,39 +202,39 @@
 							</tr>
 							<tr>
 								<td>Mon</td>
-								<td>Perfect Day at CocoCay</td>
+								<td><b>Perfect Day at CocoCay</b></td>
 								<td>7:00 AM</td>
-								<td>5:00PM</td>
+								<td>5:00 PM</td>
 
 							</tr>
 							<tr>
 								<td>Tue</td>
-								<td>Nassau, Bahamas</td>
+								<td><b>Nassau, Bahamas</b></td>
 								<td>7:00 AM</td>
 								<td>3:00 PM</td>
 
 							</tr>
 							<tr>
 								<td>Wed</td>
-								<td>Crusing</td>
+								<td><b>Crusing</b></td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td>Thu</td>
-								<td>Costa Maya, Mexico</td>
-								<td>9:00 Am</td>
+								<td><b>Costa Maya, Mexico</b></td>
+								<td>9:00 AM</td>
 								<td>5:00 PM</td>
 							</tr>
 							<tr>
 								<td>Fri</td>
-								<td>Cozumel, Mexico</td>
+								<td><b>Cozumel, Mexico</b></td>
 								<td>7:00 AM</td>
 								<td>6:00 PM</td>
 							</tr>
 							<tr>
 								<td>Sat</td>
-								<td>Crusing</td>
+								<td><b>Crusing</b></td>
 								<td></td>
 								<td></td>
 							</tr>
@@ -242,7 +252,7 @@
 
 			<!-- INTRO TO PORTS OF CALL -->
 			<tr>
-				<td style=" padding: 15px; text-align: center; font-size: 18px; font-weight: bold;">
+				<td style=" padding: 10px 15px 0px 15px; text-align: center; font-size: 24px; font-weight: bold;">
 							<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 								<p>Whether you’re looking for thrills or simply want to chill, these ports have
 									something for
@@ -256,8 +266,8 @@
 				<td style="padding-top: 15px;">
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<a href="https://www.royalcaribbean.com/cococay-cruises"><img
-								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/60341f125a44bebf77823af80ba61fe9cf657ec0930fce044a45d3ec197904ee.jpg"
-								alt=""></a>
+								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/0e001605630c584e58c891e4c03690cdf846daed77d667d6ff8b7e6168c27924.jpg"
+								alt="Perfect Day at CocoCay"></a>
 					</table>
 				</td>
 			</tr>
@@ -265,8 +275,8 @@
 				<td style="padding-top: 8px;">
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<a href="https://www.royalcaribbean.com/bahamas-cruises"><img
-								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/0b6201b908b4c75819c841ab88e064ae59d422ca1118def3c318edc78d5c489c.jpg"
-								alt=""></a>
+								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/31e1c9f09675c2745a64106c63d26250c55d71eaba65047bb705de96a1886402.jpg"
+								alt="Nassau, Bahamas"></a>
 					</table>
 				</td>
 			</tr>
@@ -274,8 +284,8 @@
 				<td style="padding-top: 8px;">
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<a href="https://www.royalcaribbean.com/mexico-cruises"><img
-								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/d2584a7f9d20cb9d55829afad587f06d6a7bdfd1a3f21fa242d429265fc0f83d.jpg"
-								alt=""></a>
+								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/3a5c8910e6337f0848f8b3b64d36ec4c215546e661b032713d0168d02a39b02f.jpg"
+								alt="Costa Maya, Mexico"></a>
 					</table>
 				</td>
 			</tr>
@@ -283,20 +293,20 @@
 				<td style="padding-top: 8px;">
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<a href="https://www.royalcaribbean.com/cozumel-cancun-cruises"><img
-								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/f207db951371b3cd3e514b31f807e3b75194b6bc4e4c51f24ee1d4141848931f.jpg"
-								alt=""></a>
+								src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/00fc9e71d5d1ecb1bf852afa543a4111217be76ea948d22576abe0da39f110bf.jpg"
+								alt="Cozumel, Mexico"></a>
 					</table>
 				</td>
 			</tr>
 
 
-			<!-- MAIN CONTENT INFO ENDING -->
+			<!-- SHORE EXCURSION SECTION -->
 
 			<tr>
 				<td>
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<tr>
-							<td style="padding: 15px 15px 5px 15px;">
+							<td style="padding: 0px 15px 5px 15px; background-color:#ffff;">
 								<p style="line-height: 23px; padding: 5px 0 0;">Our Shore Excursions team will
 									automatically reschedule any pre-paid Royal Caribbean International shore excursions
 									impacted by this change. Any pre-paid Royal Caribbean International shore excursions
@@ -308,38 +318,84 @@
 					</table>
 				</td>
 			</tr>
-
+			<!-- NEW BOOKING EXCURSIONS -->
 			<tr>
 				<td>
 					<table width="100%" border="0" cellpadding="0" cellspacing="0">
 						<tr>
 							<td style="padding: 10px 15px 0px 15px; background-color: #EAF3FE;">
-								<p style="line-height: 23px; padding: 5px 0 0; text-align: center; font-size: 18px;">In the meantime, feel free to browse all
-									the exciting shore excursion options for your sailing in the <a href="#" style="color: #0073bb;">Cruise Planner.</a></p>
+								<p
+									style="line-height: 30px; padding: 5px 0 0; text-align: center; font-size: 28px; font-weight: bold; color:#283b8a; margin: 40px 0px 0px 0px;">
+									BOOK YOUR NEW DESTINATION SHORE EXCURSIONS</a></p>
+							</td>
+						</tr>
+						<tr>
+							<td style="padding: 0px 15px 0px 15px; background-color: #EAF3FE;">
+								<p style="line-height: 23px; padding: 5px 0 0; text-align: center; font-size: 21px;">In
+									the meantime, feel free to browse all
+									the exciting shore excursion options for your sailing in the <a
+										href="https://www.royalcaribbean.com/booked"
+										style="color: #0073bb; font-weight: bold;">Cruise Planner.</a></p>
 							</td>
 						</tr>
 						<tr>
 							<td style="padding: 10px 0 15px 0; background-color: #EAF3FE;">
-								<a href="https://www.royalcaribbean.com/cozumel-cancun-cruises"><img
-									src="img/shore-excursion.jpg"
-									alt=""></a>
+								<img src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/4eb9c44ccff55ab3f1127ab4ca3a2c941cf444b8973b8bc28d55716f424a4049.jpg"
+									alt="Exciting Shore Excusions"></a>
 							</td>
 						</tr>
 					</table>
 				</td>
 			</tr>
-
+			<!-- GLOBAL INFO SECTION -->
+			<tr>
+				<td>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td style="background-color: #EAF3FE;">
+								<p
+									style="line-height: 30px; padding: 5px 0 0; text-align: center; font-size: 28px; font-weight: bold; color:#283b8a; margin: 40px 0px 0px 0px;">
+									THIS IS ROYAL CARIBBEAN MORE THAN 300 DESTINATIONS</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color: #EAF3FE;">
+								<p style="line-height: 20px; padding: 5px 0 0; text-align: center; font-size: 15px;">
+									CARIBBEAN & THE BAHAMAS | EUROPE | ALASKA </p>
+								<p style="line-height: 2px; padding: 5px 0 0; text-align: center; font-size: 15px;">
+									NORTH AMERICA | ASIA | SOUTH PACIFIC | SPECIALTY CRUISES</p>
+							</td>
+						</tr>
+						<tr>
+							<td style="padding: 10px 0px 0px 0px; background-color: #EAF3FE;">
+								<img src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/7b469ebc27550fe068f5e5677bc4a8cac59f8509e64838d6a59bb894fce5a008.jpg"
+									alt="Royal Caribbean Global Destinations"></a>
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color: #EAF3FE;">
+								<a href="https://www.royalcaribbean.com/cruise-destinations">
+									<p style="; text-align: center; font-size: 20px; color: #197dbf">CLICK HERE TO
+										EXPLORE NOW</p>
+								</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- END MAIN EMAIL INFO -->
 			<tr>
 				<td>
 					<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
 						<tr>
-							<td style="padding: 15px 15px 0 15px;">
-								<p style="line-height: 23px;">Thanks for your understanding. We can’t wait to welcome you onboard Harmony of the Seas!</p>
+							<td style="padding: 15px 15px 0 15px; background-color: #ffff;">
+								<p style="line-height: 23px;">Thanks for your understanding. We can’t wait to welcome
+									you onboard Harmony of the Seas!</p>
 							</td>
 						</tr>
-						<!--Signature Section should be implemented OUTSIDE of the template code Just added this for Visual Example-->
+						<!--Signature Section should be implemented OUTSIDE of the template dynamically. I Just added this for Visual Example -->
 						<tr>
-							<td style="padding: 0 15px 0 15px;">
+							<td style="padding: 0 15px 0 15px; background-color: #ffff;">
 								<p style="line-height: 23px;">Sincerely,
 									<br>
 									Aurora Yera-Rodriguez
@@ -352,21 +408,66 @@
 							</td>
 						</tr>
 					</table>
-					<a href="#"><img src="img/footer-bar.jpg" alt=""></a>
+					<!-- Royal Caribbean Awards -->
+					<a href="#"><img
+							src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/2084c7a945ab411a91c6475012630ae9435d65a8c33157692fc9c2480faa8862.jpg"
+							alt="Royal Caribbean Border Colors"></a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td style="padding: 10px 0 15px 0; background-color: #283b8a; text-align: center;">
+								<a href="#"><img
+										src="https://cloud1.email2go.io/64a7157cf3932bf74755aa3cf586f2ec/02c7aa030da4b74e15003992c88baadf1f6071d2bfc55cdf42cb64a3b438e006.png"
+										alt="Royal Caribbean Awards"></a>
+							</td>
+						</tr>
+					</table>
 				</td>
 			</tr>
 		</table>
-
+		<br>
 		<!-- Footer Section -->
 		<tr>
 			<td>
-				<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2">
-					<p>Testing</p>
+				<table width="600" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td
+							style="text-align: center; font-size:12px; color:#666666; line-height:10px; font-family: Arial,Helvetica,sans-serif; padding-bottom: 10px;">
+							<p><b>PRIVACY POLICY</b></p>
+							<p>Read our <span style="color: #0073bb; font-weight: bold;">Privacy Policies</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td
+							style="text-align: center; font-size:12px; color:#666666; line-height:15px; font-family: Arial,Helvetica,sans-serif; padding: 0px 50px 10px 50px">
+							<p><b>CUSTOMER SERVICE</b></p>
+							<p>How can we help you? If you have questions or comments, please do not respond to this
+								e-mail. Instead, visit
+								Customer Support for answers to frequently asked questions and information on how you
+								can contact us.</p>
+						</td>
+					</tr>
+					<tr>
+						<td
+							style="text-align: center; font-size:12px; color:#666666; line-height:20px; font-family: Arial,Helvetica,sans-serif; padding-bottom: 10px;">
+							<b>© 2021 Royal Caribbean Cruises Ltd. Ships' registry:
+								The
+								Bahamas.<br><br>
+								Royal Caribbean International<br>
+								1050 Caribbean Way<br>
+								Miami, FL
+								33132, USA <br>
+								<span>21001184</span> </b> <br>
+							<br>
+						</td>
+					</tr>
 				</table>
 			</td>
 		</tr>
 	</center>
-
 </body>
 
 </html>
